@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactform</title>
+</head>
+
+<body>
+    <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=teddan@live.se" method="post">
+        <img src="images/fint.jpg" alt="fin bild" width="400" height="400">
+    <h1>Fyll i för att vi ska kontakta dig </h1>
+    <a href="Index.html">Hem</a>
+    <br>
+    <a href="products.html">Produkter</a>
+    <br>
+    <a href="contactus.html">Kontakta oss</a>
+    <br>
+    <a href="contactform.html">Konkakt formulär</a> <br>
+    <label for="">Ditt namn</label>
+    <input type="text" id="name" name="namn"><br>
+   
+    <label for="">Adress</label>
+    <input type="tel" id="adress" name="adress"><br>
+    
+    <label for="">Telefon NR</label>
+    <input type="tel" id="telefon" name="telefon"><br>
+
+     <label for="email">Din Email</label>
+    <input type="email" name="email" id="email" placeholder="Din e-post"><br>
+   
+   
+    <label for="val">Privat eller företag</label><br>
+    
+    <input type="radio" name="val" id="privat" value="privat">
+    <label for="privat">Privat</label> <br>
+   
+    <input type="radio" name="val" id="företag" value="företag">
+    <label for="företag">Företag</label> <br>
+   
+    <label for="Antal">Antal anställda</label><br>
+    
+    <input type="radio" name="anställda" id="1-100" value="1-100">
+    <label for="1-100">1-100</label>
+    <input type="radio" name="anställda" id="101-1000" value="101-1000">
+    <label for="101-1000">101-1000</label>
+    <input type="radio" name="anställda" id="Mer än 1000" value="Mer än 1000">
+    <label for="Mer än 1000">Mer än 1000</label> <br>
+    <label for="fritext">Dina frågor</label>
+    <br>
+    <textarea name="fritext" id="fritext">Här kan du skriva en fråga</textarea> <br>
+
+    <input type="checkbox"  name="newsletter" id="newsletter" value="Ja">
+    <input type="hidden" name="newsletter" value="nej">
+    <label for="newsletter">Jag vill ha nyhetsbrev</label><br>
+    <input type="checkbox"  name="mobil" id="mobil" value="Ja">
+    <input type="hidden" name="mobil" value="nej">
+    <label for="kontaktadmobil">Jag vill bli kontaktad på telefon</label> <br>
+
+    <input type="submit" value="Skicka">
+</body>
+
+</html>
